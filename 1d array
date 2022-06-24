@@ -1,0 +1,19 @@
+//array dec=data type_array name_ array size
+#include<stdio.h>
+int main()
+
+	int a[5];
+	a[0]=20;
+	a[1]=30;	
+	a[2]=40;	
+	a[3]=50;
+	a[4]=100;
+	printf("%d",a[2]);
+	
+//	printf("%d\n",num[0]);
+	//printf("%d\n",a[3]);
+	
+	/*int sum=num[0]+num[1]+num[2]+num[3]+num[4];
+	printf("%d\n",sum);*/
+	return 0;
+}
